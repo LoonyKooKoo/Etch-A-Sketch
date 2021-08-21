@@ -1,0 +1,42 @@
+
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+#container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    border: 5px solid black;
+
+}
+
+.rows {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-grow: 1;
+    
+}
+
+.eas {
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+
+#rst-btn{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
